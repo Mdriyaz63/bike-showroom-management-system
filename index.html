@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Bike</a></li>
+            <li><a href="#spareparts">Spare Parts</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Bike Shop</h1>
+            <p>Discover the best bikes and accessories for your adventures.</p>
+        </div>
+        
+        <div class="slider">
+            <img src="sport-bike.jpeg" alt="Bike 1">
+            <img src="mountain-bike.jpeg" alt="Bike 2">
+            <img src="cruizer-bike.avif" alt="Bike 3">
+        </div>
+        
+        <p>Explore our latest bikes and gear. From mountain bikes to city cruisers, we have it all!</p>
+    </section>
+    
+    <!-- About Bike Section -->
+    <section id="about">
+        <h1>About Bikes</h1>
+        <p>Bikes are more than just transportation—they're a way of life. From racing to leisure, discover the history and benefits of cycling.</p>
+        <div class="bike-containers">
+            <div class="bike-container">
+                <img src="mountainbike1.avif" alt="Mountain Bike">
+                <h3>Mountain Bike</h3>
+                <p>Perfect for off-road adventures. Durable and rugged.</p>
+            </div>
+            <div class="bike-container">
+                <img src="roadbike1.jpg" alt="Road Bike">
+                <h3>Road Bike</h3>
+                <p>Designed for speed and long-distance cycling.</p>
+            </div>
+            <div class="bike-container">
+                <img src="hybridbike1.jpg" alt="Hybrid Bike">
+                <h3>Hybrid Bike</h3>
+                <p>Combines road and mountain features for versatility.</p>
+            </div>
+            <div class="bike-container">
+                <img src="elctricbike1.jpg" alt="Electric Bike">
+                <h3>Electric Bike</h3>
+                <p>Powered assistance for easier rides.</p>
+            </div>
+            <div class="bike-container">
+                <img src="kidsbike1.webp" alt="Kids Bike">
+                <h3>Kids Bike</h3>
+                <p>Safe and fun bikes for children.</p>
+            </div>
+            <div class="bike-container">
+                <img src="foldingbike1.avif" alt="Folding Bike">
+                <h3>Folding Bike</h3>
+                <p>Compact and portable for urban commuting.</p>
+            </div>
+        </div>
+        <p>Learn about different types of bikes, maintenance tips, and why cycling is great for health and the environment.</p>
+    </section>
+    
+    <!-- Spare Parts Section -->
+    <section id="spareparts">
+        <h1>Spare Parts</h1>
+        <div class="products">
+            <div class="product">
+                <img src="tyres.webp" alt="Tires">
+                <h3>Bike Tires</h3>
+                <p>Durable tires for all terrains. $50</p>
+            </div>
+            <div class="product">
+                <img src="breakes.webp" alt="Brakes">
+                <h3>Brake Pads</h3>
+                <p>High-performance brakes. $20</p>
+            </div>
+            <div class="product">
+                <img src="chain.jpg" alt="Chain">
+                <h3>Bike Chain</h3>
+                <p>Rust-resistant chain. $30</p>
+            </div>
+            <div class="product">
+                <img src="helmet.avif" alt="Helmet">
+                <h3>Safety Helmet</h3>
+                <p>Protective gear. $40</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Feedback Section -->
+    <section id="feedback">
+        <h1>Feedback</h1>
+        <p>We'd love to hear from you! Share your thoughts on our bikes and services.</p>
+        <form id="feedbackForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5" required></textarea>
+            
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2026 Bike Shop. All rights reserved.</p>
+    </footer>
+    
+   <script src="script.js"></script>
+</body>
+</html>
